@@ -10,7 +10,42 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
-    <body>
-        <h1>La nostra home page</h1>
-    </body>
+    <header>
+      <img src="{{ asset('images/marchio-sito-test.png') }}" alt="">
+      <nav>
+        <a href="">Home</a>
+        <a href="">Prodotti</a>
+        <a href="">News</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h3>Le lunghe</h3>
+        <div class="img_pasta">
+          <div class="layover">
+
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h3>le corte</h3>
+        <div class="img_pasta">
+          <div class="layover">
+
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h3>le cortissime</h3>
+        <div class="img_pasta">
+          <div class="layover">
+
+          </div>
+        </div>
+    </div>
+  </main>
+  <footer>
+      <div class="container">
+      </div>
+  </footer>
 </html>
