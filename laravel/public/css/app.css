@@ -20,8 +20,8 @@ header {
   text-align: center;
 }
 header img {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 header a {
   font-size: 20px;
@@ -29,10 +29,10 @@ header a {
   display: inline-block;
 }
 header a:hover {
-  background-color: #76cbea;
+  background-color: #B8DAE4;
 }
 header .active {
-  background-color: #76cbea;
+  background-color: #B8DAE4;
 }
 
 main {
@@ -40,10 +40,13 @@ main {
   padding-top: 50px;
   padding-bottom: 30px;
 }
+main h1 {
+  color: #042D76;
+}
 main h3 {
   font-size: 25px;
   text-transform: uppercase;
-  color: blue;
+  color: #042D76;
   padding-top: 10px;
   padding-bottom: 15px;
 }
@@ -76,11 +79,53 @@ main .cards .card .card-text {
   transition: all 0.3s;
 }
 main .cards .card .card-text a {
+  width: 100%;
+  height: 100%;
   font-size: 20px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main .cards .card:hover .card-text {
   opacity: 1;
+}
+main .immagini_prodotto {
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+main .immagini_prodotto img {
+  width: 50%;
+  margin-top: 50px;
+}
+main .immagini_prodotto p {
+  text-align: left;
+  color: #042D76;
+}
+main .immagini_prodotto .fas.fa-chevron-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  cursor: pointer;
+  color: white;
+}
+main .immagini_prodotto .fas.fa-chevron-left:hover {
+  color: #042D76;
+}
+main .immagini_prodotto .fas.fa-chevron-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  cursor: pointer;
+  color: white;
+}
+main .immagini_prodotto .fas.fa-chevron-right:hover {
+  color: #042D76;
 }
 
 footer {

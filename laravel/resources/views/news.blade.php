@@ -9,9 +9,9 @@
 @endsection
 
 @section('script')
-    <script>alert('sono nelle news!!!');</script>
+    {{-- <script>alert('sono nelle news!!!');</script> --}}
 @endsection
 
-@section('cssnews')
-   <link rel="stylesheet" href="{{ asset('css/news.css') }}">
+@section('css')
+   {{-- <link rel="stylesheet" href="{{ asset('css/news.css') }}"> --}}
 @endsection
